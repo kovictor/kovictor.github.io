@@ -26,7 +26,7 @@ export function ProfileIntro({ profile }: ProfileIntroProps) {
           <span>{profile.initials}</span>
         </div>
         <div className="identity-meta">
-          <p><span>role</span> computer engineer</p>
+          <p><span>role</span> senior engineer</p>
           <p><span>mode</span> hands-on learner</p>
           <p><span>status</span> figuring it out</p>
         </div>

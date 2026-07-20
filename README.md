@@ -40,7 +40,9 @@ Change the `updatedAt` value whenever the current snapshot changes.
 
 Selected Work should remain concise and public-safe. Describe personal scope
 and shipped capabilities without including confidential implementation details,
-internal project names, or private metrics.
+internal project names, or private metrics. Use specific, matter-of-fact verbs
+such as `built`, `designed`, `brought up`, and `refined`. Avoid vague phrases
+such as `worked on` and promotional language that overstates the contribution.
 
 ## Deployment
 

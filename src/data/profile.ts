@@ -34,7 +34,7 @@ export const profile: Profile = {
   name: 'Victor Ko',
   initials: 'VK',
   headline: 'No roadmap. Plenty of iterations.',
-  bio: 'A first-generation Canadian from a Hong Kong family, now living in the San Francisco Bay Area. I’m a computer engineer who learns best by getting hands-on—building software, cooking, shaping clay, or playing sports. I try to keep life simple, stay curious, and not take myself too seriously.',
+  bio: 'A first-generation Canadian from a Hong Kong family, now living in the San Francisco Bay Area. I’m a senior engineer who learns best by getting hands-on—building software, cooking, shaping clay, or playing sports. I try to keep life simple, stay curious, and not take myself too seriously.',
   quirks: [
     'Water should only be consumed cold.',
     'Pineapple belongs on pizza.',
@@ -55,28 +55,28 @@ export const profile: Profile = {
       period: 'Four years',
       title: 'GPU engineering',
       description:
-        'Worked on GPU display and power features, debugging close to the hardware and contributing to the systems responsible for graphics output and power management.',
+        'Built GPU display and power features, with a focus on low-level debugging and the systems behind graphics output and power management.',
       tags: ['GPU', 'Display', 'Power management'],
     },
     {
       period: 'At Apple',
-      title: 'Designed the ScreenCaptureKit APIs',
+      title: 'ScreenCaptureKit API design',
       description:
-        'Designed the complete API surface for ScreenCaptureKit and contributed to screen-capture frameworks across the Apple ecosystem, including ReplayKit. At WWDC, I worked directly with developers—answering technical questions and helping them troubleshoot their implementations.',
+        'Designed the API surface for ScreenCaptureKit and contributed to screen-capture frameworks across the Apple ecosystem, including ReplayKit. At WWDC, I helped developers by answering technical questions and troubleshooting their implementations.',
       tags: ['API design', 'Apple platforms', 'ScreenCaptureKit', 'ReplayKit', 'WWDC'],
     },
     {
       period: 'At Apple',
       title: 'Dynamic Island screen recording & bring-up',
       description:
-        'Worked on the screen-recording integration and feature bring-up for Dynamic Island on iPhone, bringing the capture experience to Apple’s new interaction model.',
+        'Brought up screen recording for Dynamic Island on iPhone and refined the feature from its initial integration into a complete capture experience.',
       tags: ['iPhone', 'Dynamic Island', 'Screen recording', 'Feature bring-up'],
     },
     {
       period: 'At Apple',
       title: 'Control Center capture, camera & mic modes',
       description:
-        'Worked on local capture and screen recording in Control Center, along with the audio and camera modules that let people enable camera effects such as Center Stage and microphone modes such as Voice Isolation.',
+        'Brought up and refined local capture and screen recording in Control Center, along with the audio and camera modules for effects such as Center Stage and microphone modes such as Voice Isolation.',
       tags: ['Local capture', 'Screen recording', 'Center Stage', 'Voice Isolation'],
     },
     {

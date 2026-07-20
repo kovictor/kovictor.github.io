@@ -58,12 +58,27 @@ camera/microphone modes, and AI-assisted personal projects.
 Descriptions must remain public-safe and avoid confidential implementation
 details, internal project names, and private metrics.
 
+#### Voice for technical work
+
+The tone should communicate senior-level ownership without sounding like a
+performance review or promotional biography.
+
+- Name the feature or framework and state the contribution directly.
+- Prefer concrete verbs such as `built`, `designed`, `brought up`, `refined`,
+  and `supported`.
+- Avoid `worked on`; it is vague and understates the contribution.
+- Use terms such as `led` or `drove` only when coordination or leadership is
+  important to understanding the scope.
+- Explain what the feature enables instead of relying on adjectives or hype.
+- Keep the writing calm, concise, professional, and understandable outside the
+  immediate engineering team.
+
 ### Lately
 
 A replaceable snapshot containing three to five things that currently matter.
 The subjects may change with every update and can include:
 
-- Something being built or worked on
+- Something currently being built
 - Something being learned or explored
 - A hobby or activity
 - Something being read, watched, or enjoyed
