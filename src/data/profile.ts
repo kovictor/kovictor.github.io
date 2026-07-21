@@ -60,10 +60,10 @@ export const profile: Profile = {
     },
     {
       period: 'At Apple',
-      title: 'Control Center capture, camera & mic modes',
+      title: 'ScreenCaptureKit API design',
       description:
-        'Brought up and refined local capture and screen recording in Control Center, along with the audio and camera modules for effects such as Center Stage and microphone modes such as Voice Isolation.',
-      tags: ['Local capture', 'Screen recording', 'Center Stage', 'Voice Isolation'],
+        'Designed the API surface for ScreenCaptureKit and contributed to screen-capture frameworks across the Apple ecosystem, including ReplayKit. At WWDC, I helped developers by answering technical questions and troubleshooting their implementations.',
+      tags: ['API design', 'Apple platforms', 'ScreenCaptureKit', 'ReplayKit', 'WWDC'],
     },
     {
       period: 'At Apple',
@@ -74,10 +74,10 @@ export const profile: Profile = {
     },
     {
       period: 'At Apple',
-      title: 'ScreenCaptureKit API design',
+      title: 'Control Center capture, camera & mic modes',
       description:
-        'Designed the API surface for ScreenCaptureKit and contributed to screen-capture frameworks across the Apple ecosystem, including ReplayKit. At WWDC, I helped developers by answering technical questions and troubleshooting their implementations.',
-      tags: ['API design', 'Apple platforms', 'ScreenCaptureKit', 'ReplayKit', 'WWDC'],
+        'Brought up and refined local capture and screen recording in Control Center, along with the audio and camera modules for effects such as Center Stage and microphone modes such as Voice Isolation.',
+      tags: ['Local capture', 'Screen recording', 'Center Stage', 'Voice Isolation'],
     },
     {
       period: 'Four years',
