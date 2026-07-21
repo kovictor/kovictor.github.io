@@ -1,106 +1,51 @@
-# Personal Landing Page
+# Personal Writing Site
 
 ## Working concept
 
-A small personal website that answers three questions:
+A small personal website with two clear destinations:
 
-1. Who am I?
-2. What technical work am I proud of?
-3. What does life look like lately?
+1. Home is a place for recent writing about life, hobbies, lessons, and small
+   experiments.
+2. About gathers the pieces that explain who Victor is: background, current
+   interests, personality, and selected professional accomplishments.
 
-It is a living profile rather than a full resume, portfolio archive, blog, or
-social feed. The introduction and selected work change rarely. The current
-snapshot changes ad hoc, whenever it no longer represents the person or a
-meaningful milestone has happened.
-
-> A small page about who I am, what I have helped build, and what has my
-> attention lately.
+The site should feel personal rather than performative. It borrows the strong
+editorial hierarchy of a modern independent blog—compact navigation, a clear
+opening idea, generous spacing, and visual post cards—while keeping Victor's
+own warm palette and understated voice.
 
 ## Product principles
 
-- Personal, not performative
-- Curated, not chronological
-- Specific, not exhaustive
-- Easy to understand in one visit
-- Easy to update without creating a publishing obligation
-- Visually expressive without distracting from the person
-- Publicly readable without an account
+- Personal, not promotional
+- Life-focused, with no topic taxonomy for artificial intelligence
+- Recent and curated, without a publishing cadence or public archive promise
+- Easy to update in one typed data file
+- Public-safe when describing professional work
+- Useful without accounts, analytics, comments, or a newsletter
 
 ## Page structure
 
-### About me
+### Home
 
-- Name
-- Photo, avatar, or simple personal mark
-- Short headline
-- A concise introduction of roughly 50–80 words
-- Optional location
-- A small set of useful contact or profile links
+- A concise statement describing the site
+- A Coming Soon placeholder until the first post is ready
+- Eventually, a recent-post grid with a title, short introduction, topic, date,
+  reading time, and distinctive artwork for each post
+- No email subscriber panel
 
-The introduction should establish personality and interests. It should not
-expand into a chronology of jobs or education.
+### About
 
-### Selected Work
+- Personal introduction and links
+- Current interests and activities
+- A few personality details
+- A curated set of technical accomplishments
 
-A concise collection of meaningful technical contributions rather than a full
-employment timeline. Each entry should communicate:
+### Shared shell
 
-- The product, framework, or technical area
-- Victor's personal scope or ownership
-- What capability reached users or developers
-- A few useful technology or domain tags
-
-Initial subjects include GPU display and power features, ScreenCaptureKit API
-design, screen-capture frameworks across Apple platforms, WWDC developer
-support, Dynamic Island screen-recording bring-up, Control Center capture and
-camera/microphone modes, and AI-assisted personal projects.
-
-Descriptions must remain public-safe and avoid confidential implementation
-details, internal project names, and private metrics.
-
-#### Voice for technical work
-
-The tone should communicate senior-level ownership without sounding like a
-performance review or promotional biography.
-
-- Name the feature or framework and state the contribution directly.
-- Prefer concrete verbs such as `built`, `designed`, `brought up`, `refined`,
-  and `supported`.
-- Avoid `worked on`; it is vague and understates the contribution.
-- Use terms such as `led` or `drove` only when coordination or leadership is
-  important to understanding the scope.
-- Explain what the feature enables instead of relying on adjectives or hype.
-- Keep the writing calm, concise, professional, and understandable outside the
-  immediate engineering team.
-
-### Lately
-
-A replaceable snapshot containing three to five things that currently matter.
-The subjects may change with every update and can include:
-
-- Something currently being built
-- Something being learned or explored
-- A hobby or activity
-- Something being read, watched, or enjoyed
-- A meaningful life change
-
-The section displays an honest last-updated date. Previous versions are not
-kept as a public archive.
-
-### Footer
-
-- A minimal contact link, if useful
-- An optional link to the source code
-
-## Initial implementation
-
-1. Build one polished, responsive page with About, Selected Work, and Now.
-2. Store the profile and current content in one typed data file.
-3. Render the page with small React components.
-4. Add one purposeful interaction: a persistent light/dark theme preference.
-5. Support keyboard navigation and reduced-motion preferences.
-6. Test both the development version and the production build locally.
-7. Deploy the static build through GitHub Pages.
+- Victor Ko identity mark
+- Home and About navigation
+- Persistent light/dark theme preference
+- Minimal footer
 
 ## Technology direction
 
@@ -108,54 +53,16 @@ kept as a public archive.
 - TypeScript
 - Vite
 - Vanilla CSS
-- Git and GitHub
-- GitHub Actions
-- GitHub Pages
+- GitHub Actions and GitHub Pages
 
-React is an explicit learning goal. The project should demonstrate components,
-props, typed data, list rendering, conditional rendering, state, effects, and
-browser storage without adding features solely to make the application appear
-more complex.
+The site uses hash navigation so static hosting can load both destinations
+without server rewrites. Content remains centralized in `src/data/profile.ts`.
 
 ## Explicitly out of scope
 
+- Email subscriptions or lead capture
+- Artificial-intelligence commentary or navigation categories
+- Comments, likes, ratings, or social feeds
+- Authentication, a database, or a content management system
 - Full resume or employment timeline
-- Portfolio archive
-- Blog or newsletter
-- Archived Lately entries
-- Monthly publishing schedule
-- Comments, likes, ratings, or feeds
-- Authentication or accounts
-- Database or content management system
-- Analytics beyond basic hosting information
-- Contact forms or lead capture
-- Complex animation
-
-## Content constraint
-
-The complete page should fit within one comfortable visit. On a typical desktop
-screen, the core identity should be visible immediately, with Selected Work and
-Now forming a clear reading path below it.
-
-## Update workflow
-
-When the current snapshot no longer feels accurate:
-
-1. Edit the Lately entries in the data file.
-2. Change the last-updated date.
-3. Preview the page locally.
-4. Build and preview the production version locally.
-5. Commit and push the changes.
-6. Let GitHub Pages publish the new version.
-
-There is no expected update cadence.
-
-## First milestone
-
-Build a locally testable React page using realistic draft content. It should
-clearly answer:
-
-1. Who is this person?
-2. What technical work have they contributed to?
-3. What has their attention lately?
-4. Where can someone learn more or get in touch?
+- A required publishing schedule

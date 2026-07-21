@@ -3,15 +3,13 @@ import { useEffect, useState } from 'react'
 type Theme = 'light' | 'dark'
 
 function getInitialTheme(): Theme {
-  const savedTheme = window.localStorage.getItem('theme')
+  const savedTheme = window.localStorage.getItem('personal-site-theme')
 
   if (savedTheme === 'light' || savedTheme === 'dark') {
     return savedTheme
   }
 
-  return window.matchMedia('(prefers-color-scheme: dark)').matches
-    ? 'dark'
-    : 'light'
+  return 'light'
 }
 
 export function ThemeToggle() {
@@ -19,7 +17,7 @@ export function ThemeToggle() {
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme
-    window.localStorage.setItem('theme', theme)
+    window.localStorage.setItem('personal-site-theme', theme)
   }, [theme])
 
   const nextTheme = theme === 'light' ? 'dark' : 'light'

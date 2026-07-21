@@ -1,23 +1,20 @@
-# About Me
+# Victor Ko — Personal Notes
 
-A one-page personal website built with React, TypeScript, Vite, and vanilla
-CSS. It combines a concise introduction, selected technical work, and an ad-hoc
-snapshot of what life looks like lately.
+A small two-page personal website built with React, TypeScript, Vite, and
+vanilla CSS. The Home page is an editorial index of recent writing about life;
+the About page collects Victor's background, current interests, and selected
+technical work.
 
-The visual direction is a playful "personal operating system": strong
-typography, technical details, tactile cards, and a persistent light/dark theme.
+## Pages
 
-## Page sections
+- **Home** — an introduction and a placeholder for future life-focused posts
+- **About** — introduction, social links, current interests, quirks, and a
+  public-safe selection of technical accomplishments
 
-- **About** — a short personal introduction and links
-- **Selected Work** — a curated set of technical contributions spanning GPU
-  display and power work, Apple screen-capture frameworks, Dynamic Island,
-  Control Center, and AI-assisted building
-- **Now** — replaceable cards describing current interests and activities
+Hash navigation (`#/` and `#/about`) keeps both pages compatible with static
+GitHub Pages hosting without server-side route configuration.
 
 ## Local development
-
-Install dependencies and start the local development server:
 
 ```bash
 npm install
@@ -26,23 +23,21 @@ npm run dev
 
 ## Production preview
 
-Build the optimized site and preview it locally:
-
 ```bash
 npm run build
 npm run preview
 ```
 
-## Updating the page
+## Updating content
 
-Edit `src/data/profile.ts` to update the About, Selected Work, and Now content.
-Change the `updatedAt` value whenever the current snapshot changes.
+Edit `src/data/profile.ts` to update About copy, the current-life snapshot,
+links, or selected work. The Home page currently shows a Coming Soon state
+until the first post is ready.
 
 Selected Work should remain concise and public-safe. Describe personal scope
-and shipped capabilities without including confidential implementation details,
-internal project names, or private metrics. Use specific, matter-of-fact verbs
-such as `built`, `designed`, `brought up`, and `refined`. Avoid vague phrases
-such as `worked on` and promotional language that overstates the contribution.
+and shipped capabilities without confidential implementation details, internal
+project names, or private metrics. Prefer specific, matter-of-fact verbs such
+as `built`, `designed`, `brought up`, and `refined`.
 
 ## Deployment
 
