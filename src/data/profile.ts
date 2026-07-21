@@ -52,18 +52,18 @@ export const profile: Profile = {
   updatedAt: 'July 2026',
   selectedWork: [
     {
-      period: 'Four years',
-      title: 'GPU engineering',
+      period: 'Currently',
+      title: 'Building with AI agents',
       description:
-        'Built GPU display and power features, with a focus on low-level debugging and the systems behind graphics output and power management.',
-      tags: ['GPU', 'Display', 'Power management'],
+        'Exploring how agents can shorten the distance between an idea and working software. This website is one of those experiments.',
+      tags: ['React', 'AI agents', 'Prototyping'],
     },
     {
       period: 'At Apple',
-      title: 'ScreenCaptureKit API design',
+      title: 'Control Center capture, camera & mic modes',
       description:
-        'Designed the API surface for ScreenCaptureKit and contributed to screen-capture frameworks across the Apple ecosystem, including ReplayKit. At WWDC, I helped developers by answering technical questions and troubleshooting their implementations.',
-      tags: ['API design', 'Apple platforms', 'ScreenCaptureKit', 'ReplayKit', 'WWDC'],
+        'Brought up and refined local capture and screen recording in Control Center, along with the audio and camera modules for effects such as Center Stage and microphone modes such as Voice Isolation.',
+      tags: ['Local capture', 'Screen recording', 'Center Stage', 'Voice Isolation'],
     },
     {
       period: 'At Apple',
@@ -74,17 +74,17 @@ export const profile: Profile = {
     },
     {
       period: 'At Apple',
-      title: 'Control Center capture, camera & mic modes',
+      title: 'ScreenCaptureKit API design',
       description:
-        'Brought up and refined local capture and screen recording in Control Center, along with the audio and camera modules for effects such as Center Stage and microphone modes such as Voice Isolation.',
-      tags: ['Local capture', 'Screen recording', 'Center Stage', 'Voice Isolation'],
+        'Designed the API surface for ScreenCaptureKit and contributed to screen-capture frameworks across the Apple ecosystem, including ReplayKit. At WWDC, I helped developers by answering technical questions and troubleshooting their implementations.',
+      tags: ['API design', 'Apple platforms', 'ScreenCaptureKit', 'ReplayKit', 'WWDC'],
     },
     {
-      period: 'Currently',
-      title: 'Building with AI agents',
+      period: 'Four years',
+      title: 'GPU engineering',
       description:
-        'Exploring how agents can shorten the distance between an idea and working software. This website is one of those experiments.',
-      tags: ['React', 'AI agents', 'Prototyping'],
+        'Built GPU display and power features, with a focus on low-level debugging and the systems behind graphics output and power management.',
+      tags: ['GPU', 'Display', 'Power management'],
     },
   ],
   lately: [

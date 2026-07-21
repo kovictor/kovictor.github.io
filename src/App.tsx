@@ -15,8 +15,8 @@ export default function App() {
         <div className="header-actions">
           <nav className="site-nav" aria-label="Primary navigation">
             <a href="#about">About</a>
-            <a href="#work">Work</a>
             <a href="#lately">Now</a>
+            <a href="#work">Work</a>
           </nav>
           <ThemeToggle />
         </div>
@@ -24,8 +24,8 @@ export default function App() {
 
       <main id="top" className="page-shell">
         <ProfileIntro profile={profile} />
-        <SelectedWork items={profile.selectedWork} />
         <Lately items={profile.lately} updatedAt={profile.updatedAt} />
+        <SelectedWork items={profile.selectedWork} />
       </main>
 
       <footer className="site-footer">
