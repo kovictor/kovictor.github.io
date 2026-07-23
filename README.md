@@ -1,9 +1,13 @@
 # Victor Ko — Personal Notes
 
-A small two-page personal website built with React, TypeScript, Vite, and
-vanilla CSS. The Home page is an editorial index of recent writing about life;
-the About page collects Victor's background, current interests, and selected
-technical work.
+This project is Victor Ko's personal writing site: a home for occasional posts
+about life, hobbies, lessons learned, and small experiments. It also provides a
+concise About page with Victor's background, current interests, personality,
+and selected technical work.
+
+The site is intentionally personal rather than promotional. It is built with
+React, TypeScript, Vite, and vanilla CSS, and is designed to stay small, easy to
+maintain, and compatible with static GitHub Pages hosting.
 
 ## Pages
 
@@ -34,10 +38,25 @@ Edit `src/data/profile.ts` to update About copy, the current-life snapshot,
 links, or selected work. The Home page currently shows a Coming Soon state
 until the first post is ready.
 
+When publishing or revising a post, add an entry to the **Post update log**
+below in the same change. Use one line per update:
+
+```text
+- YYYY-MM-DD — Published|Updated: "Post title" — Brief description of the change.
+```
+
+Keep entries in reverse chronological order, with the newest update first. The
+log is for changes to published writing; routine code, styling, and dependency
+updates do not need to be recorded here.
+
 Selected Work should remain concise and public-safe. Describe personal scope
 and shipped capabilities without confidential implementation details, internal
 project names, or private metrics. Prefer specific, matter-of-fact verbs such
 as `built`, `designed`, `brought up`, and `refined`.
+
+## Post update log
+
+No posts have been published yet.
 
 ## Deployment
 
